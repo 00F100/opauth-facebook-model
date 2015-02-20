@@ -30,7 +30,7 @@ Após autenticar, faça solicitações de informações sobre usuários/páginas
 
 After logging in, make requests for information about users/pages/groups Facebook.
 
-## ependencies
+## Dependencies
 
 > To authenticate use: Opauth -> https://github.com/uzyn/cakephp-opauth
 
