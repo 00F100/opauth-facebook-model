@@ -13,5 +13,11 @@
         "psr-4": {
             "OpauthFacebook\\": "src"
         }
-    }
+    },
+    "repositories":[
+        {
+            "type":"vcs",
+            "url":"git@github.com:00F100/cakephp-opauth.git"
+        }
+    ]
 }
