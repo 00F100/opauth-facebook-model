@@ -17,7 +17,7 @@
     "repositories":[
         {
             "type":"vcs",
-            "url":"git@github.com:00F100/cakephp-opauth.git"
+            "url":"https://github.com/00F100/cakephp-opauth"
         }
     ]
 }
