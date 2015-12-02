@@ -7,7 +7,7 @@
     "require": {
         "php": ">=5.4.16",
         "cakephp/cakephp": "3.*",
-        "00f100/cakephp-opauth":"dev-master"
+        "00f100/cakephp-opauth":"*"
     },
     "autoload": {
         "psr-4": {
