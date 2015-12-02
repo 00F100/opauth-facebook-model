@@ -1,4 +1,8 @@
 <?php
+
+namespace OpauthFacebook\Model;
+
+use App\Model\AppModel;
 /**
  * Facebook Api App Model
  *
@@ -7,16 +11,16 @@
  * @since         2015
  */
 
-App::uses('AppModel', 'Model');
-App::uses('CakeSession', 'Model/Datasource');
-App::uses('Hash', 'Utility');
-App::uses('HttpSocket', 'Network/Http');
-App::uses('Set', 'Utility');
+// App::uses('AppModel', 'Model');
+// App::uses('CakeSession', 'Model/Datasource');
+// App::uses('Hash', 'Utility');
+// App::uses('HttpSocket', 'Network/Http');
+// App::uses('Set', 'Utility');
 
 class FacebookApiAppModel extends AppModel
 {
 	public $useTable = false;
-	
+
 	public $_config = array();
 
 	protected $_request = array(

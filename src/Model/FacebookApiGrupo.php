@@ -1,4 +1,9 @@
 <?php
+
+namespace OpauthFacebook\Model;
+
+use OpauthFacebook\Model\FacebookApiAppModel;
+
 /**
  * Facebook Api Usuario
  *
@@ -6,8 +11,6 @@
  * @author     Joao Moraes - joaomoraesbr@gmail.com
  * @since         2015
  */
-
-App::uses('FacebookApiAppModel', 'FacebookApi.Model');
 
 class FacebookApiGrupo extends FacebookApiAppModel {
 
