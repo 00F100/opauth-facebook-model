@@ -2,12 +2,12 @@
     "name": "00f100/opauth-facebook-model",
     "description": "Opauth Facebook Model for CakePHP3",
     "homepage": "http://cakephp.org",
-    "type": "library",
+    "type": "cakephp-plugin",
     "license": "MIT",
     "require": {
         "php": ">=5.4.16",
-        "cakephp/cakephp": "3.1.5",
-        "00f100/cakephp-opauth":"0.1.2"
+        "cakephp/cakephp": "3.*",
+        "00f100/cakephp-opauth":"0.*"
     },
     "autoload": {
         "psr-4": {
